@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>First Page</title>
+	<link rel="stylesheet" type="text/css" href="firstpage.css">
+	<link rel="stylesheet" type="text/css" href="shelf.css">
+
+	<link href="https://fonts.googleapis.com/css2?family=Blaka+Hollow&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Tapestry&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class=land_container>
+		<div class="scroll1">
+		<div id="vantajs">
+			<a href="#finish" class="explore">Let's Flip</a>
+			<div class="twoheaders">
+				<h3 class="first_header">Think Before You Speak</h3>
+				<h3 class="second_header">Read Before You Think</h3>
+				<p class="about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+			</div>
+		</div>
+		</div>
+	</div>
+
+		<!-- ---------------------------------------- -->
+		<div class="container">
+	<div class="shelf">
+
+			<div class="CrimeBook">
+				<span class="writer">Designed By <i>Sanblaze</i></span>
+				<h2>CRIME</h2>
+			</div>
+
+		<img src="shelf.png">
+			<br>
+			<div class="MysteryBook">
+				<span class="writer">Designed By <i>Aveedan</i></span>
+				<h2>MYSTERY</h2>
+			</div>
+
+			<div class="MotivationBook">
+				<span class="writer">Designed By <i>El_fuego</i></span>
+				<h2>MOTIVATION</h2>
+			</div>
+
+		<img src="shelf.png" class="special">
+		
+	</div>
+	</div>
+ 
+<!-- 	---------------------------------------- -->
+	<div id="finish"></div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r123/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.21/vanta.birds.min.js"></script>
+
+<script>
+VANTA.BIRDS({
+  el: "#vantajs",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  colorMode: "lerpGradient",
+  separation: 40.00
+})
+</script>
+</body>
+</html>

@@ -1,0 +1,341 @@
+/* css vanta */
+html{
+
+}
+body{
+	margin:0;
+	padding:0;
+
+} 
+
+ *{
+    margin: 0; 
+     /* height:100%;  */
+    overflow: hidden;
+	/* scroll-behavior: smooth; */
+
+  } 
+  
+  .land_container{
+      margin-top:0;
+      width:100%;
+      height:100%;
+  
+  }
+  .land_container div{
+  
+      position: relative;
+      width:90%;
+      height:100vh;
+  }
+  .land_container {
+      top:0;
+      width:100%;
+  
+  }
+  
+  .land_container  .twoheaders{
+      top:20%;
+      left:5%;
+  }
+  
+  .land_container  .twoheaders .first_header{
+      margin-bottom: 0;
+      font-size:1.8rem;
+      font-weight: 400;
+      color:#FEECE9;
+      font-family: 'Courgette', cursive;
+  }
+  
+  .land_container  .twoheaders .second_header{
+      margin-top:0;
+      font-size:3.7rem;
+      color:#FEECE9;
+      font-family: 'Fugaz One', cursive;
+  }
+  
+  .land_container  .twoheaders .about{
+      margin-top:0;
+      font-family: 'Tapestry', cursive;
+      color:#FEECE9;
+      width:50%;
+  }
+  
+   .explore{
+    position: absolute;
+      font-family: 'Righteous', cursive;
+      font-size:1.2rem;
+      top:60%;
+      left:74%;
+      width:10%;
+      display: block;
+      border:solid 2px #FEECE9;
+      text-align: center;
+      color:#FEECE9;
+      text-decoration: none;
+      z-index:10000;
+      padding:10px 18px;
+  }
+  
+  .explore:hover{
+      background-color:#FEECE9;
+      color:#000066;
+  }
+  
+  #vantajs {
+    width: auto;
+    height: 100vh; 
+  
+  
+  }
+  #vantaj{
+    opacity: 0.0;
+  }
+  
+  @media only screen and (max-width:420px){
+    .explore{
+      left:50%;
+      top:-20%;
+    }
+  }
+  /* 
+  #finish{
+      height:0;
+      width:0; 
+  } */
+
+
+
+/* shelf part */
+
+
+html {
+    font-size: 16px;
+}
+
+body {
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    background-color: #fff;
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .shelf {
+    position: absolute;
+    overflow: visible;
+}
+
+.container .shelf img {
+    height: 3.5rem;
+    margin-top: 18%;
+}
+
+.container .shelf .special {
+    margin-top: 28%;
+}
+
+
+/*------CrimeBook---------*/
+
+.container .shelf .CrimeBook {
+    position: absolute;
+    width: 9.5rem;
+    height: 11.875rem;
+    background-color: #fff;
+    top: -15.2%;
+    left: 38.1%;
+    display: inline-block;
+    box-shadow: 0.625rem 0.3125rem 0.3125rem rgba(0, 0, 0, 0.2);
+    background: url(./img/crime.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+    opacity: 1;
+    filter: saturate(70%);
+}
+
+.container .shelf .CrimeBook:hover {
+    cursor: none;
+    transform: scale(1.2);
+    transition: transform .5s ease-in-out;
+}
+
+.container .shelf:hover>.CrimeBook:not(:hover) {
+    filter: blur(0.0625rem);
+}
+
+.container .shelf .CrimeBook h2 {
+    color: #fff;
+    margin-left: 10%;
+    margin-top: 88%;
+    font-size: 1.5625rem;
+    font-family: 'Righteous', cursive;
+}
+
+.container .shelf .CrimeBook span {
+    color: #fff;
+    top: 0;
+    font-size: 0.375rem;
+    margin-left: 60%;
+}
+
+
+
+/*------MysteryBook------*/
+
+.container .shelf .MysteryBook {
+    position: absolute;
+    width: 9.5rem;
+    height: 11.875rem;
+    background-color: #fff;
+    display: inline-block;
+    left: 16%;
+    top: 42.7%;
+    box-shadow: 0.625rem 0.3125rem 0.3125rem rgba(0, 0, 0, 0.2);
+    background: url(./img/mystery.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+    opacity: 1;
+    filter: saturate(70%);
+}
+
+.container .shelf .MysteryBook:hover {
+    cursor: none;
+    transform: scale(1.2);
+    transition: transform .5s ease-in-out;
+}
+
+.container .shelf:hover>.MysteryBook:not(:hover) {
+    filter: blur(0.0625rem);
+}
+
+.container .shelf .MysteryBook h2 {
+    color: #fff;
+    margin-left: 10%;
+    margin-top: 90%;
+    font-size: 1.4rem;
+    font-family: 'Righteous', cursive;
+}
+
+
+.container .shelf .MysteryBook span {
+    color: #fff;
+    top: 0;
+    font-size: 0.375rem;
+    margin-left: 60%;
+}
+
+
+/*------MotivationBook-------*/
+
+.container .shelf .MotivationBook {
+    position: absolute;
+    width: 9.5rem;
+    height: 11.875rem;
+    background-color: #fff;
+    left: 60%;
+    top: 42.7%;
+    display: inline-block;
+    box-shadow: 0.625rem 0.3125rem 0.3125rem rgba(0, 0, 0, 0.2);
+    background: url(./img/motivation.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+    opacity: 1;
+    filter: saturate(70%);
+}
+
+.container .shelf .MotivationBook:hover {
+    cursor: none;
+    transform: scale(1.2);
+    transition: transform .5s ease-in-out;
+}
+
+.container .shelf:hover>.MotivationBook:not(:hover) {
+    filter: blur(0.0625rem);
+}
+
+.container .shelf .MotivationBook h2 {
+    color: #fff;
+    margin-left: 8%;
+    margin-top: 91%;
+    font-size: 1.2rem;
+    font-family: 'Righteous', cursive;
+}
+
+
+.container .shelf .MotivationBook span {
+    color: #fff;
+    top: 0;
+    font-size: 0.375rem;
+    margin-left: 58%;
+}
+
+
+/*------Responsive-------*/
+
+@media only screen and (max-width:650px) {
+    html {
+        font-size: 12px;
+    }
+    .container .shelf img {
+        height: 3rem;
+    }
+      .container .shelf .special {
+        margin-top: 32%;
+    }
+    .container .shelf .CrimeBook {
+        top: -21.2%;
+    }
+    .container .shelf .MysteryBook {
+        top: 39%;
+    }
+    .container .shelf .MotivationBook {
+        top: 39%;
+    }
+}
+
+@media only screen and (max-width:420px) {
+    html {
+        font-size: 10px;
+    }
+    .container .shelf img {
+        height: 2.9rem;
+        margin-top: 19.5%;
+    }
+    .container .shelf .special {
+        margin-top: 32%;
+    }
+    .container .shelf .CrimeBook {
+        width: 9.5rem;
+        height: 11.875rem;
+        top: -20.6%;
+        left: 37%;
+    }
+    .container .shelf .MysteryBook {
+        width: 9.5rem;
+        height: 11.875rem;
+        top: 38.5%;
+        left: 15%;
+    }
+    .container .shelf .MotivationBook {
+        width: 9.5rem;
+        height: 11.875rem;
+        top: 38.5%;
+    }
+}
+
+#tryy{
+    background-color:green;
+    display:none;
+}
