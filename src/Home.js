@@ -74,7 +74,7 @@ return (<div ref={myRef}>
                 </div>
                 <img src={shelfImg} alt= "shelf" className="special"/>
             </div>  
-            <img onClick={scrollToTop} src={scrollupImg} className="scrollup"/> 
+            <img onClick={scrollToTop} src={scrollupImg} alt="scroll up" className="scrollup"/> 
         </div>
     </div>
     <span id="finish"></span>
