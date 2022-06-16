@@ -1,6 +1,7 @@
 import"./Home.css";
 import {Link, animateScroll as scroll} from "react-scroll"
 import shelfImg from "./img/shelf.png"
+import scrollupImg from "./img/scrollup.png"
 import React, { useState, useEffect, useRef } from 'react'
 import BIRDS from 'vanta/dist/vanta.birds.min'
 import * as THREE from 'three'
@@ -13,8 +14,8 @@ if (!vantaEffect) {
 setVantaEffect(BIRDS({
 THREE,
 el: myRef.current,
-mouseControls: false,
-touchControls: false,
+mouseControls: true,
+touchControls: true,
 gyroControls: true,
 minHeight: 700.00,
 minWidth: 200.00,
@@ -45,7 +46,7 @@ return (<div ref={myRef}>
 				<h3 className="first_header">Think Before You Speak</h3>
 				<h3 className="second_header">Read Before You Think</h3>
 				<p className="about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-        <Link to="finish" smooth ={true}  className="explore">Let's Flip/</Link>
+        <Link to="finish" smooth ={true}  className="explore">Let's Flip</Link>
 			</div>
 		</div>
 	</div>
@@ -71,14 +72,10 @@ return (<div ref={myRef}>
                     <span className="writer">Designed By <i>El_fuego</i></span>
                     <h2>MOTIVATION</h2>
                 </div>
-
                 <img src={shelfImg} alt= "shelf" className="special"/>
-                
-            </div>
-
+            </div>  
+            <img onClick={scrollToTop} src={scrollupImg} className="scrollup"/> 
         </div>
-        <button onClick={scrollToTop}>Scroll Up !</button>   
-
     </div>
     <span id="finish"></span>
      

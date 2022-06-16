@@ -1,4 +1,10 @@
 /* css vanta */
+@import url("https://fonts.googleapis.com/css2?family=Blaka+Hollow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tapestry&display=swap");
+
 html{
 
 }
@@ -35,8 +41,8 @@ body{
   }
   
   .land_container  .twoheaders{
-      top:20%;
-      left:5%;
+      top:25%;
+      left:6%;
   }
   
   .land_container  .twoheaders .first_header{
@@ -55,7 +61,7 @@ body{
   }
   
   .land_container  .twoheaders .about{
-      margin-top:0;
+      margin-top:2%;
       font-family: 'Tapestry', cursive;
       color:#FEECE9;
       width:50%;
@@ -65,8 +71,8 @@ body{
     position: absolute;
       font-family: 'Righteous', cursive;
       font-size:1.2rem;
-      top:60%;
-      left:74%;
+      top:54%;
+      left:80%;
       width:10%;
       display: block;
       border:solid 2px #FEECE9;
@@ -92,12 +98,7 @@ body{
     opacity: 0.0;
   }
   
-  @media only screen and (max-width:420px){
-    .explore{
-      left:50%;
-      top:-20%;
-    }
-  }
+
   /* 
   #finish{
       height:0;
@@ -281,12 +282,60 @@ body {
     margin-left: 58%;
 }
 
+.scrollup{
+    margin-left:90%;
+    margin-top:42%;
+}
+    
+
 
 /*------Responsive-------*/
+@media only screen and (max-width:900px){
+    .explore{
+        left:75%;
+        width:auto;
+    }
+    .land_container  .twoheaders .about{
+        width:60%;
+    }
+    .scrollup{
+        margin-top:50%;
+    }
+}
 
-@media only screen and (max-width:650px) {
+@media only screen and (max-width:730px){
+    .land_container  .twoheaders .second_header{
+        font-size:3.5rem;
+    }
+    .land_container  .twoheaders .first_header{
+        font-size:1.6rem;
+    }
+}
+
+@media only screen and (max-width:690px) {
     html {
         font-size: 12px;
+    }
+    .container .shelf img {
+        height: 3rem;
+    }
+      .container .shelf .special {
+        margin-top: 32%;
+    }
+    .container .shelf .CrimeBook {
+        top: -21.2%;
+    }
+    .container .shelf .MysteryBook {
+        top: 39%;
+    }
+    .container .shelf .MotivationBook {
+        top: 39%;
+    }
+}
+
+@media only screen and (max-width:520px) {
+    html {
+        font-size: 9.5px;
     }
     .container .shelf img {
         height: 3rem;
@@ -332,6 +381,29 @@ body {
         width: 9.5rem;
         height: 11.875rem;
         top: 38.5%;
+    }
+
+    .land_container  .twoheaders .second_header{
+        font-size:2.5rem;
+        margin-left:10%;
+
+    }
+    .land_container  .twoheaders .first_header{
+        font-size:1.3rem;
+        margin-left:29%;
+        margin-bottom:3%;
+    }
+    .explore{
+        left:37%;
+        width:auto;
+        margin-top:-48%;
+        margin-bottom:50%;
+    }
+    .land_container  .twoheaders .about{
+        
+        width:70%;
+        margin-left:15%;
+        margin-top:8%;
     }
 }
 
