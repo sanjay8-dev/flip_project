@@ -3,7 +3,8 @@ import {Link, animateScroll as scroll} from "react-scroll"
 import shelfImg from "./img/shelf.png"
 import scrollupImg from "./img/scrollup.png"
 import React, { useState, useEffect, useRef } from 'react'
-import BIRDS from 'vanta/dist/vanta.birds.min'
+// import BIRDS from 'vanta/dist/vanta.birds.min'
+import NET from 'vanta/dist/vanta.net.min'
 import * as THREE from 'three'
 
 const Home = (props) => {
@@ -11,18 +12,16 @@ const [vantaEffect, setVantaEffect] = useState(0)
 const myRef = useRef(null)
 useEffect(() => {
 if (!vantaEffect) {
-setVantaEffect(BIRDS({
+setVantaEffect(NET({
 THREE,
-el: myRef.current,
-mouseControls: true,
-touchControls: true,
-gyroControls: true,
-minHeight: 700.00,
-minWidth: 200.00,
-scale: 1.00,
-scaleMobile: 1.00,
-colorMode: "lerpGradient",
-separation: 40.00
+  el: myRef.current,
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00
 }))
 }
 return () => {

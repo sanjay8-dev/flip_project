@@ -5,6 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Tapestry&display=swap");
 
+
 html{
 
 }
@@ -283,6 +284,8 @@ body {
 }
 
 .scrollup{
+    width:7rem;
+    height:7rem;
     margin-left:90%;
     margin-top:42%;
 }
@@ -299,7 +302,8 @@ body {
         width:60%;
     }
     .scrollup{
-        margin-top:50%;
+        margin-top:65%;
+        margin-left:85%;
     }
 }
 
@@ -309,6 +313,10 @@ body {
     }
     .land_container  .twoheaders .first_header{
         font-size:1.6rem;
+    }
+    .scrollup{
+        margin-top:80%;
+        margin-left:80%;
     }
 }
 
@@ -352,6 +360,10 @@ body {
     .container .shelf .MotivationBook {
         top: 39%;
     }
+    .scrollup{
+        margin-top:95%;
+        margin-left:75%;
+    }
 }
 
 @media only screen and (max-width:420px) {
@@ -385,7 +397,7 @@ body {
 
     .land_container  .twoheaders .second_header{
         font-size:2.5rem;
-        margin-left:10%;
+        margin-left:14%;
 
     }
     .land_container  .twoheaders .first_header{
@@ -404,6 +416,10 @@ body {
         width:70%;
         margin-left:15%;
         margin-top:8%;
+    }
+    .scrollup{
+        margin-top:120%;
+        margin-left:6%;
     }
 }
 
