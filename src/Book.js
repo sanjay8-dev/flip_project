@@ -9,15 +9,13 @@ import "./crime.css"
 const Book = (props)=>{
     console.log(crime)
     const testStyle = {
-        "--backgroundImage" :`url(${crime})`,
+        "--backgroundImage" :`url(${crime})`
     }
     const genre = useParams()
     console.log(genre)
     if(genre.bookId === "crimebook"){
         return (  
-            <div className="book" style={{
-                
-            }}>
+            <div className="book" style={testStyle}>
                 <div className="crime">
                         <div className="Game">
                     <img src={games} alt="game"/>
