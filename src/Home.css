@@ -6,27 +6,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Tapestry&display=swap");
 
 
-html{
 
-}
-body{
-	margin:0;
+.land_container{
+    margin:0;
 	padding:0;
-
-} 
-
- *{
     margin: 0; 
-     /* height:100%;  */
     overflow: hidden;
-	/* scroll-behavior: smooth; */
-
-  } 
-  
-  .land_container{
-      margin-top:0;
-      width:100%;
-      height:100%;
+    margin-top:0;
+    width:100%;
+    height:100%;
   
   }
   .land_container div{
