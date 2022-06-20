@@ -8,7 +8,7 @@ import "./crime.css"
 const Book = (props)=>{
     const genre = useParams()
     console.log(genre)
-    if(genre.id === "crimebook"){
+    if(genre.bookId === "crimebook"){
         return (
             
             <div className="book">
