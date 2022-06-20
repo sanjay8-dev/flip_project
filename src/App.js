@@ -1,10 +1,11 @@
 import"./App.css";
 import Home from "./Home"
-import { BrowserRouter as Router,Route,Routes } from 'react-router-dom';
+import { BrowserRouter as Router,Route,Routes, useParams } from 'react-router-dom';
 import Book from "./Book"
-import CrimeBook from "./CrimeBook"
-const App = (props) => {
 
+
+
+const App = (props) => {
 	return (
 	   <Router>
 		<div className="app">
@@ -12,7 +13,7 @@ const App = (props) => {
 		  		 <Routes >
 					<Route path="/" element={<Home/>}/>
 					{/* <Route path="/book" element={<Book/>}/> */}
-					<Route path="/crimebook" element={<CrimeBook/>}/>
+					<Route path="/book/:bookId" element={<Book />}/>
 
 				 </Routes>
 
