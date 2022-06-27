@@ -93,10 +93,6 @@
 	font-weight:500; 
 }
 
-.Book .writer i{
-	font-weight: 700
-}
-
 .Book .cover{
 	position: absolute;
 	top:0;
@@ -129,43 +125,7 @@
 /*------Responsive-------*/
 
 /* mobile resposiveness */
-@media only screen and (max-width: 380px) {
-	html{
-		font-size: 6px;
-	}
 
-	.Book {
-		
-		width: 17rem;
-		height: 25rem; 
-		/*margin-left: 0.5rem;*/
-		
-	}
-
-	.Book #side-cover{
-		letter-spacing: 4px;
-		transform: rotate(90.5deg) translate(28rem,14.2rem) skewX(39deg);
-    }
-
-   .Book::before{
-	   width:2rem;
-	   transform: skewY(-45deg) translate(-12px,-6.5px);
-	   
-    }
-
-   .Book::after{
-	   height: 2rem;
-	   transform: skewX(-45deg) translate(6.6px,12px);
-    }
-
-    .Game img{
-    	width:24px;
-		height:22px;
-    }
-	.writer{
-		font-size:1rem;
-	}
-}
 
 /* mobile+ responsiveness */
 @media only screen and (max-width: 600px){
@@ -225,8 +185,48 @@
 	}
 
 	.Game img{
-    	width:175px;
-		height:172px;
+    	width:13rem;
+		height:12rem;
+		bottom:3%;
+		left:5%;
     } 
+}
+
+@media only screen and (max-width: 480px) {
+	html{
+		font-size: 6px;
+	}
+
+	.Book {
+		
+		width: 29rem;
+		height: 41rem; 
+		/*margin-left: 0.5rem;*/
+		
+	}
+
+	.Book #side-cover{
+		letter-spacing: 4px;
+		transform: rotate(92.7deg) translate(31rem,14.5rem) skewX(38deg);
+    }
+
+   .Book::before{
+	   width:2.5rem;
+	   transform: skewY(-45deg) translate(-14px,-6.5px);
+	   
+    }
+
+   .Book::after{
+	   height: 2.5rem;
+	   transform: skewX(-45deg) translate(6.6px,12.5px);
+    }
+
+    .Game img{
+    	width:16rem;
+		height:14rem;
+    }
+	.writer{
+		font-size:1rem;
+	}
 }
 

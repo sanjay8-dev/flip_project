@@ -29,7 +29,7 @@ const Book = (props)=>{
                         backgroundImage:`url(${crime})`
                     }}></div>
                     <h2>CRIME</h2>
-                    <span className="writer">Written By <i>Sanblaze</i></span>
+                    <span className="writer">Written By Sanblaze</span>
                 </div>
             </div>
             </div>
