@@ -5,7 +5,7 @@
 	padding :0;
 }
 
-.crime{
+.booksonshelf{
 	display:flex;
 	justify-content:center;
 	align-items: center;
@@ -162,6 +162,9 @@
     	width:24px;
 		height:22px;
     }
+	.writer{
+		font-size:1rem;
+	}
 }
 
 /* mobile+ responsiveness */
