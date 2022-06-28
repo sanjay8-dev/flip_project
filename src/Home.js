@@ -12,6 +12,7 @@ const [vantaEffect, setVantaEffect] = useState(0)
 const myRef = useRef(null)
 
 const navigate = useNavigate();
+
 const navigateToCrimeBook = () => {
     navigate('/book/crimebook');
   };
