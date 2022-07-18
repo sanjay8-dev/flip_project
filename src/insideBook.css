@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300&display=swap");
+
+
+
+.inside {
+    background:url(./img/floor8.jpg);
+    background-size:cover;
+    background-attachment:fixed;
+    background-repeat:repeat-y;
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    height:100vh;
+    padding-top:2.5%;
+}
+
+.demoPage{
+    background:url(./img/bookTexture.jpg);
+    background-size: cover;
+    background-repeat: none;
+    color: black;
+    overflow: hidden;
+}
+
+/* .demoPage img{
+    background-size:cover;
+    width:100%;
+    height:100%;
+} */
+
+/* --------------ContentPage------------- */
+.contentheading {
+    margin-left:33%;
+    margin-top:8%;
+    margin-bottom:5%;
+    color:crimson;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.contenttitle {
+    /* margin-top:3%; */
+    margin-left:10%;
+    font-size:1.1rem;
+    font-family: 'Merienda One', cursive;
+}
+
+.contenttitle:hover {
+    cursor:pointer;
+}
+
+.count {
+    margin-right:3%;
+    font-size:1.5rem;
+    font-family: 'Merienda One', cursive;  
+}
+/* ----------------------------------------- */
+
+/* -------------Contentdetails-------------- */
+
+.storycount{
+    font-family: 'Merienda One', cursive;
+    font-size:2rem;
+    margin-top:2%;
+    margin-left:43%;
+    margin-bottom:2%;
+    color: #002266;
+}
+
+.storyheading {
+    font-family: 'Merienda One', cursive;
+    font-size:1.5rem;
+    margin-left:6%;
+    margin-bottom:4%;
+    color: #002266;
+}
+
+.storycontentdiv1 {
+    margin-top:3%;
+    margin-left:3%;
+    margin-right:3%;
+    margin-bottom:2%;
+    font-family: 'Roboto Slab', serif;
+    text-align:justify;
+}
+
+.picture img{
+    width:80%;
+    margin-left:10%;
+    
+}
+
